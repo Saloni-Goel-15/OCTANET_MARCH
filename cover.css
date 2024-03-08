@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  box-sizing: border-box;
+}
+html.body {
+  width: 100%;
+  height: 100%;
+}
+main {
+  width: 100%;
+  min-height: 100vh;
+}
+.top {
+  width: 100%;
+  min-height: 60vh;
+  background-image: url(https://e0.pxfuel.com/wallpapers/762/983/desktop-wallpaper-light-pink-nature-pink-background-landscape-aesthetic.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.top .overlay {
+  position: relative;
+  width: 100%;
+  min-height: inherit;
+  background-color: rgba(223, 217, 157, 0.233);
+}
+.text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  padding: 0 10vh;
+  color: rgba(14, 14, 14, 0.984);
+  bottom: 5%;
+}
+.text h1 {
+  font-weight: 800;
+  font-size: 5vw;
+}
+.text .images {
+  background-image: url(https://media.istockphoto.com/id/587229246/photo/navy-blue-dew.jpg?s=612x612&w=0&k=20&c=5Lcgv50OFkzDD4BLKyviSYTgW1l7hY-k5C8jxwPaYd4=);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 220px;
+}
+.rtext {
+  display: flex;
+  width: 25%;
+  align-items: center;
+  justify-content: space-between;
+}
+.rtext p {
+  font-size: 14px;
+}
+.bottom {
+  display: flex;
+  width: 100%;
+  min-height: 40vh;
+}
+.b1 {
+  width: 30%;
+  min-height: inherit;
+  /* background-image: url(https://miro.medium.com/v2/resize:fit:1400/1*PGyalpQRIUk6SqU-NQRlSQ@2x.jpeg); */
+  /* background-image: url(https://thumbs.dreamstime.com/b/twisted-dull-pale-pink-fabric-23374316.jpg); */
+  background-image: url(https://img.freepik.com/premium-photo/winter-panorama-landscape-winterly-morning-new-day-purple-winter-landscape-with-dawn-created-with-generative-al-technology_505557-11742.jpg?w=1380);
+  background-size: cover;
+  background-position: center;
+}
+.b1 .h2 {
+  text-align: center;
+  padding: 30px;
+}
+.b1 p {
+  color: rgb(120, 26, 62);
+  text-align: center;
+  padding: 15px;
+}
+.b1 .overlay {
+  position: relative;
+  width: 100%;
+  min-height: inherit;
+  background-color: rgba(255, 255, 255, 0.228);
+}
+.b2 {
+  width: 30%;
+  min-height: inherit;
+  display: flex;
+  flex-direction: column;
+}
+.b2 .up {
+  width: 100%;
+  min-height: 20vh;
+  background-image: url(https://i.pinimg.com/564x/1b/57/8a/1b578a231c6db5db4a277a641cf649de.jpg);
+  /* background-image: url(https://st4.depositphotos.com/1195019/27283/i/260/depositphotos_272834358-stock-photo-empty-background-scene-dark-street.jpg); */
+  background-size: cover;
+  background-position: center;
+}
+.b2 .up.h1 {
+  text-align: center;
+  padding: 30px;
+  /* color: rgb(120, 26, 62); */
+}
+.b2 .up p {
+  color: rgb(120, 26, 62);
+  text-align: center;
+  padding: 15px;
+}
+.b2 .overlay1 {
+  position: relative;
+  width: 100%;
+  min-height: inherit;
+  background-color: rgba(246, 240, 240, 0.256);
+}
+.b2 .down {
+  width: 100%;
+  min-height: 20vh;
+  background-image: url(https://img.freepik.com/premium-photo/beautiful-landscape-with-trees-covered-with-snow_1122641-879.jpg?w=740);
+  /* background-image: url(https://st4.depositphotos.com/1195019/27283/i/260/depositphotos_272830142-stock-photo-empty-background-scene-dark-street.jpg); */
+  background-size: cover;
+  background-position: center;
+}
+.b2 .down p {
+  text-align: center;
+  padding: 15px;
+  padding-left: 30%;
+}
+
+.b2 .down .overlay {
+  position: relative;
+  width: 100%;
+  min-height: 20vh;
+  background-color: rgba(233, 191, 142, 0.308);
+}
+.b3 {
+  width: 40%;
+  min-height: inherit;
+  background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/pink-winter-delphimages-photo-creations.jpg);
+  /* background-image: url(https://img.freepik.com/premium-photo/dark-street-wet-asphalt-reflections-rays-water-abstract-dark-blue-smoke-smog-empty-dark-scene-neon-light-spotlights_129911-372.jpg); */
+  background-size: cover;
+  background-position: center;
+}
+/* .b3 .overlay { 
+   justify-content: left;
+  position: relative;
+  margin-right: 50%;
+  width: 50%;
+  height: 100%;
+  padding: 4vw 3vh; 
+ } */
+.b3 p {
+  color: rgb(120, 26, 62);
+  text-align: center;
+  padding: 15px;
+}
+.b3 .overlay {
+  background-color: rgba(255, 255, 255, 0.228);
+
+  padding: 1.2vh;
+}
+@media (max-width: 700px) {
+  .rtext {
+    flex-direction: column;
+  }
+  .b3 .overlay {
+    width: 100%;
+    margin-left: initial;
+  }
+}
+@media (max-width: 500px) {
+  .text {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .text h1 {
+    font-size: 5vh;
+  }
+  .text image {
+    height: 200px;
+    width: 140px;
+    margin-top: 20px;
+  }
+  .rtext {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .rtext p {
+    margin: 10px;
+  }
+  .icons {
+    margin-top: 10px;
+  }
+  .bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .b1 {
+    width: 100%;
+    min-height: 30vh;
+  }
+  .b2 {
+    width: 100%;
+  }
+  .b2 up {
+    min-height: 40vh;
+  }
+  .b3 {
+    width: 100%;
+    min-height: 30vh;
+    background-position: left;
+  }
+}
